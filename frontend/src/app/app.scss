@@ -1,0 +1,37 @@
+.app-header {
+  align-items: center;
+  background: #101828;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem clamp(1rem, 4vw, 3rem);
+}
+
+.brand {
+  color: inherit;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  a {
+    color: #d0d5dd;
+    text-decoration: none;
+  }
+
+  a.active,
+  a:hover {
+    color: #fff;
+  }
+}
+
+.app-content {
+  margin: 0 auto;
+  max-width: 1100px;
+  padding: 2rem 1rem;
+}

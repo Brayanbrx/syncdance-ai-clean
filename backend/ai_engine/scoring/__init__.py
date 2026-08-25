@@ -1,0 +1,1 @@
+"""Future multimodal score calculation."""

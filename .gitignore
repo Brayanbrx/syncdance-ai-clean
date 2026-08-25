@@ -1,0 +1,50 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+*.sqlite3
+
+backend/staticfiles/
+backend/media/
+media/
+staticfiles/
+
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Angular / Node
+node_modules/
+dist/
+.angular/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Test and quality caches
+coverage/
+.pytest_cache/
+.ruff_cache/
+
+# Local developer utilities and generated snapshots
+/extras/
+
+# Extras
+SYNCDANCE_BASE.md
